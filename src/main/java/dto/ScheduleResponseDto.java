@@ -5,5 +5,5 @@ public class ScheduleResponseDto {
     private String username;
     private String content;
     private String password;
-    private String date;
+    private String created_at;
 }
