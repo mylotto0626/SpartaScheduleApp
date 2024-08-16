@@ -1,7 +1,7 @@
-package dto;
+package com.sparta.taejuspatascheduleapp.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import entity.Schedule;
+import com.sparta.taejuspatascheduleapp.entity.Schedule;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

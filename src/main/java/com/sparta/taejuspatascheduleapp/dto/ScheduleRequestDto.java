@@ -1,4 +1,4 @@
-package dto;
+package com.sparta.taejuspatascheduleapp.dto;
 
 
 import lombok.Getter;

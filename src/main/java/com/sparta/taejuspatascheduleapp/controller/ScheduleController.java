@@ -1,10 +1,10 @@
-package controller;
+package com.sparta.taejuspatascheduleapp.controller;
 
 
-import dto.ScheduleRequestDto;
-import dto.ScheduleResponseDto;
+import com.sparta.taejuspatascheduleapp.dto.ScheduleRequestDto;
+import com.sparta.taejuspatascheduleapp.dto.ScheduleResponseDto;
 import org.springframework.web.bind.annotation.*;
-import service.ScheduleService;
+import com.sparta.taejuspatascheduleapp.service.ScheduleService;
 
 import java.util.List;
 
@@ -20,7 +20,7 @@ public class ScheduleController {
 
     // 일정 등록
     @PostMapping("/add")
-    public ScheduleRequestDto addSchedule(@RequestBody ScheduleRequestDto scheduleRequestDto) {
+    public ScheduleResponseDto addSchedule(@RequestBody ScheduleRequestDto scheduleRequestDto) {
         return scheduleService.addSchedule(scheduleRequestDto);
     }
 

@@ -1,7 +1,10 @@
+package com.sparta.taejuspatascheduleapp;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+// db 연결 테스트 파일
 public class App {
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:mysql://localhost:3306/schedule"; // 데이터베이스 URL
